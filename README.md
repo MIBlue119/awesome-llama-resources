@@ -24,3 +24,7 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 
 ## Others
 - [Llama 2 の情報まとめ](https://note.com/npaka/n/ncc6c32fcfd38)
+
+## For specific usage
+- [Chinese-Llama-2-7b](https://github.com/LinkSoul-AI/Chinese-Llama-2-7b)
+- [Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca)
