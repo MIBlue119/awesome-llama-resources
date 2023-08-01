@@ -28,3 +28,8 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 ## For specific usage
 - [Chinese-Llama-2-7b](https://github.com/LinkSoul-AI/Chinese-Llama-2-7b)
 - [Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca)
+
+## Multimodal LLM
+- [LLaSM: Large Language and Speech Model](https://github.com/LinkSoul-AI/LLaSM): Support chinese/english voice chat model
+- [LLaVA ](https://github.com/haotian-liu/LLaVA): Large Language-and-Vision Assistant 
+- [Chinese-LLaVA](https://github.com/LinkSoul-AI/Chinese-LLaVA)
