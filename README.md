@@ -11,7 +11,7 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
     - [Together.ai's blog about Preparing for the era of 32K context: Early learnings and explorations](https://together.ai/blog/llama-2-7b-32k)
 ## Demo
 - [Llama2 70B Chatbot at HuggingFace](https://huggingface.co/spaces/ysharma/Explore_llamav2_with_TGI)
-
+- [A16z's Llama2-chatbot](https://github.com/a16z-infra/llama2-chatbot): provide a streamlit chatbot app for LLaMA2
 ## Finetune Method/ Scripts
 - [Finetune with PEFT](https://huggingface.co/blog/llama2?fbclid=IwAR2G3jtbsUMZCTNsYTuxKDJCC_S6SuyFBk8hs0y23TI2ndPHVZ33ZWNHfSc)
 - [Finetune together.ai 32k context window model](https://github.com/togethercomputer/OpenChatKit/tree/main/training): script to finetune on booksum/mqa dataset
@@ -38,6 +38,8 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 - [Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca)
 - [Finetuned on code with qLoRA](https://www.linkedin.com/posts/abhishek-harshvardhan-mishra_tokenbenderllama2-7b-chat-hf-codecherrypop-activity-7088091401397145600-FndC/?utm_source=share&utm_medium=member_ios)
 - [ToolLLaMA](https://github.com/OpenBMB/ToolBench): An open source project to train LLaMa on ToolBench, to make LLaMa support function call
+- [Llama2-Code-Interpreter](https://github.com/SeungyounShin/Llama2-Code-Interpreter): make Llama2 use Code Execution, Debug, Save Code, Reuse it, Access to Internet 
+- [Llama2-Medical-Chatbot](https://github.com/AIAnytime/Llama2-Medical-Chatbot): A medical bot built using Llama2 and Sentence Transformers
 
 ## Multimodal LLM
 - [LLaSM: Large Language and Speech Model](https://github.com/LinkSoul-AI/LLaSM): Support chinese/english voice chat model based on whisper features
@@ -52,7 +54,8 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 ## Other Resources
 - [Llama 2 の情報まとめ](https://note.com/npaka/n/ncc6c32fcfd38)
 - [LLaMA2-Every Resource you need](https://www.philschmid.de/llama-2)
-
+- [LLaMA-efficient-tuning](https://github.com/hiyouga/LLaMA-Efficient-Tuning): Easy-to-use fine-tuning framework using PEFT (PT+SFT+RLHF with QLoRA) (LLaMA-2, BLOOM, Falcon, Baichuan) 
+- [awesome-llm and aigc](https://github.com/sjinzh/awesome-llm-and-aigc)
 ## Some theory
 - [Why we should train smaller LLMs on more tokens](https://www.harmdevries.com/post/model-size-vs-compute-overhead/)
     - harms law on hugging face for calculating the model size/dataset size's compute overhead
