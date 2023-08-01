@@ -18,6 +18,7 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 - [Finetune with QLora at 13b model](https://colab.research.google.com/drive/16SlGXLuBRB30clB0dCYAh3sqk0edKoFC?usp=drive_link&fbclid=IwAR2mXiV4IK0PnuhbozWtkMQANiU6P2u6h03reYtDLMctK3GeM2xEyYQvjNw): a colab about finetuning llama2
 - [HuggingFace SFT training script](https://github.com/lvwerra/trl/blob/main/examples/scripts/sft_trainer.py)
 - [Pytorch-lightening's script to finetune Llama2 on custom dataset](https://lightning.ai/blog/how-to-finetune-gpt-like-large-language-models-on-a-custom-dataset/)
+- [Instuction-tune Llama2](https://www.philschmid.de/instruction-tune-llama-2): HuggingFace's Tech Lead introduced how to instruct finetune Llama2
 
 ## Porting
 - [Karpathy's Llama2.c](https://github.com/karpathy/llama2.c): Karpathy's weekend project to build a LLama2 at C 
