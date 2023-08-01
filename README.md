@@ -1,4 +1,4 @@
-# LLama2 Resources
+# Awesome Llama2 Resources
 
 Llama2 is a part open source commercial model released from Meta, including 7B/13B/70B and chat models with 4096 context window.
 
