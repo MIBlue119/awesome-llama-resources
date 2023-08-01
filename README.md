@@ -20,7 +20,6 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 - [Pytorch-lightening's script to finetune Llama2 on custom dataset](https://lightning.ai/blog/how-to-finetune-gpt-like-large-language-models-on-a-custom-dataset/)
 - [Instuction-tune Llama2](https://www.philschmid.de/instruction-tune-llama-2): HuggingFace's Tech Lead Philschmid introduced how to instruct finetune Llama2
 - [Finetune LLaMA2 7-70B on Amazon SageMaker](https://www.philschmid.de/sagemaker-llama2-qlora): Philschmid introduce preparing datasets/using QLoRA/Deploy model on Amazon SageMaker
-
 ## Porting
 - [Karpathy's Llama2.c](https://github.com/karpathy/llama2.c): Karpathy's weekend project to build a LLama2 at C 
 
@@ -51,6 +50,8 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 - [LLaMA2-Accessory](https://github.com/Alpha-VLLM/LLaMA2-Accessory):An Open-source Toolkit for LLM Development 
     - [LLaMA-Adapter](https://github.com/OpenGVLab/LLaMA-Adapter): Fine-tuning LLaMA to follow Instructions within 1 Hour and 1.2M Parameters 
 
+## Optimiztion(Latency/Size)
+- [Optimizing LLM latency](https://hamel.dev/notes/llm/03_inference.html): A great blog about exploration of inference tools for open source LLMs 
 ## Other Resources
 - [Llama 2 の情報まとめ](https://note.com/npaka/n/ncc6c32fcfd38)
 - [LLaMA2-Every Resource you need](https://www.philschmid.de/llama-2)
