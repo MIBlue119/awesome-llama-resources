@@ -15,6 +15,8 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 ## Porting
 - [Karpathy's Llama2.c](https://github.com/karpathy/llama2.c)
 
+- [web-llm](https://github.com/mlc-ai/web-llm): Bringing large-language models and chat to web browsers
+
 ## Tutorial
 - [Llam2.c for dummies](https://github.com/RahulSChand/llama2.c-for-dummies)
 
