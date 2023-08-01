@@ -8,9 +8,11 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
     - [Paper: Llama 2: Open Foundation and Fine-Tuned Chat Models](https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/)
     - [Download Applications](https://ai.meta.com/resources/models-and-libraries/llama-downloads/)
 - [Togehter AI] 202307 TogetherAI released [Llama2-7B context window with 32k](https://huggingface.co/togethercomputer/LLaMA-2-7B-32K) context window.
+    - [Together.ai's blog about Preparing for the era of 32K context: Early learnings and explorations](https://together.ai/blog/llama-2-7b-32k)
 
 ## Finetune
 - [Finetune with PEFT](https://huggingface.co/blog/llama2?fbclid=IwAR2G3jtbsUMZCTNsYTuxKDJCC_S6SuyFBk8hs0y23TI2ndPHVZ33ZWNHfSc)
+- [Finetune together.ai 32k context window model](https://github.com/togethercomputer/OpenChatKit/tree/main/training): script to finetune on booksum/mqa dataset
 
 ## Porting
 - [Karpathy's Llama2.c](https://github.com/karpathy/llama2.c)
@@ -37,5 +39,6 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 - [Chinese-LLaVA](https://github.com/LinkSoul-AI/Chinese-LLaVA)
 
 ## Toolkits
+- [TogetherAI] [OpenChatKit](https://github.com/togethercomputer/OpenChatKit):
 - [LLaMA2-Accessory](https://github.com/Alpha-VLLM/LLaMA2-Accessory):An Open-source Toolkit for LLM Development 
     - [LLaMA-Adapter](https://github.com/OpenGVLab/LLaMA-Adapter): Fine-tuning LLaMA to follow Instructions within 1 Hour and 1.2M Parameters 
