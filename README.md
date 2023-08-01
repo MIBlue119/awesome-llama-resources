@@ -49,9 +49,13 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 - [TogetherAI] [OpenChatKit](https://github.com/togethercomputer/OpenChatKit): Together.ai's open toolkit for LLM finetune/moderation
 - [LLaMA2-Accessory](https://github.com/Alpha-VLLM/LLaMA2-Accessory):An Open-source Toolkit for LLM Development 
     - [LLaMA-Adapter](https://github.com/OpenGVLab/LLaMA-Adapter): Fine-tuning LLaMA to follow Instructions within 1 Hour and 1.2M Parameters 
-
 ## Optimiztion(Latency/Size)
 - [Optimizing LLM latency](https://hamel.dev/notes/llm/03_inference.html): A great blog about exploration of inference tools for open source LLMs 
+## Optimization(Reasoning)
+- [LLM Reasoners](https://github.com/Ber666/llm-reasoners): LLM Reasoners is a library to enable LLMs to conduct complex reasoning, with advanced reasoning algorithms.
+
+## Use 
+- [Run Llama 2 on your own Mac using LLM and Homebrew](https://simonwillison.net/2023/Aug/1/llama-2-mac/)
 ## Other Resources
 - [Llama 2 の情報まとめ](https://note.com/npaka/n/ncc6c32fcfd38)
 - [LLaMA2-Every Resource you need](https://www.philschmid.de/llama-2)
