@@ -52,3 +52,7 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 ## Other Resources
 - [Llama 2 の情報まとめ](https://note.com/npaka/n/ncc6c32fcfd38)
 - [LLaMA2-Every Resource you need](https://www.philschmid.de/llama-2)
+
+## Some theory
+- [Why we should train smaller LLMs on more tokens](https://www.harmdevries.com/post/model-size-vs-compute-overhead/)
+    - harms law on hugging face for calculating the model size/dataset size's compute overhead
