@@ -39,6 +39,7 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 - [ToolLLaMA](https://github.com/OpenBMB/ToolBench): An open source project to train LLaMa on ToolBench, to make LLaMa support function call
 - [Llama2-Code-Interpreter](https://github.com/SeungyounShin/Llama2-Code-Interpreter): make Llama2 use Code Execution, Debug, Save Code, Reuse it, Access to Internet 
 - [Llama2-Medical-Chatbot](https://github.com/AIAnytime/Llama2-Medical-Chatbot): A medical bot built using Llama2 and Sentence Transformers
+- [Finetune LLaMA 7B with Traditional Chinese instruction datasets](https://github.com/A-baoYang/alpaca-7b-chinese)
 
 ## Multimodal LLM
 - [LLaSM: Large Language and Speech Model](https://github.com/LinkSoul-AI/LLaSM): Support chinese/english voice chat model based on whisper features
@@ -64,3 +65,6 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 ## Some theory
 - [Why we should train smaller LLMs on more tokens](https://www.harmdevries.com/post/model-size-vs-compute-overhead/)
     - harms law on hugging face for calculating the model size/dataset size's compute overhead
+
+## Move on to production
+- [Patterns for Building LLM-based Systems & Products](https://eugeneyan.com/writing/llm-patterns/): Amazon's LLM Engineer Eugene Yan wrote a blog about patterns of LLM based system
