@@ -62,7 +62,7 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 - [LLaMA2-Every Resource you need](https://www.philschmid.de/llama-2)
 - [LLaMA-efficient-tuning](https://github.com/hiyouga/LLaMA-Efficient-Tuning): Easy-to-use fine-tuning framework using PEFT (PT+SFT+RLHF with QLoRA) (LLaMA-2, BLOOM, Falcon, Baichuan) 
 - [awesome-llm and aigc](https://github.com/sjinzh/awesome-llm-and-aigc)
-- [Finetune Falcon-7B on Your GPU with TRL and QLoRA](https://medium.com/@bnjmn_marie/fine-tune-falcon-7b-on-your-gpu-with-trl-and-qlora-4490fadc3fbb):
+- [Finetune Falcon-7B on Your GPU with TRL and QLoRA](https://medium.com/@bnjmn_marie/fine-tune-falcon-7b-on-your-gpu-with-trl-and-qlora-4490fadc3fbb): A blog about tuning falcon-7b on your consumer GPU
 ## Some theory
 - [Why we should train smaller LLMs on more tokens](https://www.harmdevries.com/post/model-size-vs-compute-overhead/)
     - harms law on hugging face for calculating the model size/dataset size's compute overhead
