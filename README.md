@@ -63,6 +63,8 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 - [LLaMA-efficient-tuning](https://github.com/hiyouga/LLaMA-Efficient-Tuning): Easy-to-use fine-tuning framework using PEFT (PT+SFT+RLHF with QLoRA) (LLaMA-2, BLOOM, Falcon, Baichuan) 
 - [awesome-llm and aigc](https://github.com/sjinzh/awesome-llm-and-aigc)
 - [Finetune Falcon-7B on Your GPU with TRL and QLoRA](https://medium.com/@bnjmn_marie/fine-tune-falcon-7b-on-your-gpu-with-trl-and-qlora-4490fadc3fbb): A blog about tuning falcon-7b on your consumer GPU
+- [A Definitive Guide to QLoRA: Fine-tuning Falcon-7b with PEFT](https://medium.com/@amodwrites/a-definitive-guide-to-qlora-fine-tuning-falcon-7b-with-peft-78f500a1f337)
+- [Amazon sagemaker generativeai: Fine-tune Falcon-40B with QLoRA](https://github.com/aws-samples/amazon-sagemaker-generativeai/blob/main/studio-notebook-fine-tuning/falcon-40b-qlora-finetune-summarize.ipynb)
 ## Some theory
 - [Why we should train smaller LLMs on more tokens](https://www.harmdevries.com/post/model-size-vs-compute-overhead/)
     - harms law on hugging face for calculating the model size/dataset size's compute overhead
