@@ -5,6 +5,7 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 ## Models
 - [Original Model] 202307 Meta Released Llama2
     - [Github](https://github.com/facebookresearch/llama/blob/main/MODEL_CARD.md)
+    - [Meta's llama-recipes](https://github.com/facebookresearch/llama-recipes): provide examples for finetuning at SingleGPU/Multiple GPU and the recipe to convert model to HuggingFace transformers's LLama2 model definition
     - [Paper: Llama 2: Open Foundation and Fine-Tuned Chat Models](https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/)
     - [Download Applications](https://ai.meta.com/resources/models-and-libraries/llama-downloads/)
 - [Togehter AI] 202307 TogetherAI released [Llama2-7B context window with 32k](https://huggingface.co/togethercomputer/LLaMA-2-7B-32K) context window based on Meta's research [Extending Context Window of Large Language Models via Positional Interpolation](https://arxiv.org/abs/2306.15595)
@@ -51,12 +52,20 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 - [LLaMA2-Accessory](https://github.com/Alpha-VLLM/LLaMA2-Accessory):An Open-source Toolkit for LLM Development 
     - [LLaMA-Adapter](https://github.com/OpenGVLab/LLaMA-Adapter): Fine-tuning LLaMA to follow Instructions within 1 Hour and 1.2M Parameters 
 ## Optimiztion(Latency/Size)
-- [Optimizing LLM latency](https://hamel.dev/notes/llm/03_inference.html): A great blog about exploration of inference tools for open source LLMs 
+- [Optimizing LLM latency](https://hamel.dev/notes/llm/03_inference.html): A great blog about exploration of inference tools for open source LLMs
+- [Series Quantized LLama2 Model from The Bloke with GPTQ/GGML](https://huggingface.co/TheBloke)
+    - [TheBloke/llama-2-7B-Guanaco-QLoRA-GPTQ](https://huggingface.co/TheBloke/llama-2-7B-Guanaco-QLoRA-GPTQ)
+    - [OpenAssistant-Llama2-13B-Orca-8K-3319-GPTQ](https://huggingface.co/TheBloke/OpenAssistant-Llama2-13B-Orca-8K-3319-GPTQ)
+- Quantization
+    - [GPTQ: Accurate Post Training Quantization for generative pre-trained transformers](https://arxiv.org/pdf/2210.17323.pdf)
+        - [AutoGPTQ](https://github.com/PanQiWei/AutoGPTQ): An easy-to-use LLMs quantization package with user-friendly apis, based on GPTQ algorithm.
+
 ## Optimization(Reasoning)
 - [LLM Reasoners](https://github.com/Ber666/llm-reasoners): LLM Reasoners is a library to enable LLMs to conduct complex reasoning, with advanced reasoning algorithms.
 
 ## Use 
 - [Run Llama 2 on your own Mac using LLM and Homebrew](https://simonwillison.net/2023/Aug/1/llama-2-mac/)
+- [Deploy Llama2 7B/13B/70B model on AWS SageMaker](https://www.philschmid.de/sagemaker-llama-llm): Based on Hugging Face LLM DLC(Deep Learning Container) which is powered by [huggingface's text generation inference](https://github.com/huggingface/text-generation-inference). HuggingFace's text generation inference is a Rust, Python and gRPC server for text generation inference. Used in production at HuggingFace to power Hugging Chat, the Inference API and Inference Endpoint.
 ## Other Resources
 - [Llama 2 の情報まとめ](https://note.com/npaka/n/ncc6c32fcfd38)
 - [LLaMA2-Every Resource you need](https://www.philschmid.de/llama-2)
