@@ -21,10 +21,13 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 - [Pytorch-lightening's script to finetune Llama2 on custom dataset](https://lightning.ai/blog/how-to-finetune-gpt-like-large-language-models-on-a-custom-dataset/)
 - [Instuction-tune Llama2](https://www.philschmid.de/instruction-tune-llama-2): HuggingFace's Tech Lead Philschmid introduced how to instruct finetune Llama2
 - [Finetune LLaMA2 7-70B on Amazon SageMaker](https://www.philschmid.de/sagemaker-llama2-qlora): Philschmid introduce preparing datasets/using QLoRA/Deploy model on Amazon SageMaker
+- [Finetune LLaMa2 with QLoRA at colab](https://colab.research.google.com/drive/1Zmaceu65d7w4Tcd-cfnZRb6k_Tcv2b8g?usp=sharing#scrollTo=AgKCL7fTyp9u)
+- [Fine-tune Llama 2 with DPO by huggingface](https://huggingface.co/blog/dpo-trl)
 ## Porting
 - [Karpathy's Llama2.c](https://github.com/karpathy/llama2.c): Karpathy's weekend project to build a LLama2 at C 
 
 - [web-llm](https://github.com/mlc-ai/web-llm): Bringing large-language models and chat to web browsers
+- [HuggingFace release Swift Transformers to help run LLM on Apple Device](https://huggingface.co/blog/swift-coreml-llm): Provide Swift based [Swift Transformers Lib](https://github.com/huggingface/swift-transformers), a [swift chat app](https://github.com/huggingface/swift-chat) and a [exporters](https://github.com/huggingface/exporters) for exporting model to coreml.
 
 ## Tutorial
 - [Llama2.c for dummies](https://github.com/RahulSChand/llama2.c-for-dummies): a description about Karpathy's LLama2 line by line
@@ -80,3 +83,6 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 
 ## Move on to production
 - [Patterns for Building LLM-based Systems & Products](https://eugeneyan.com/writing/llm-patterns/): Amazon's LLM Engineer Eugene Yan wrote a blog about patterns of LLM based system
+
+## Evaluation
+- [🤗Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard): A huggingface space which  track, rank and evaluate LLMs and chatbots as they are released.
