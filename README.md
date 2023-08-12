@@ -56,6 +56,7 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 - [TogetherAI] [OpenChatKit](https://github.com/togethercomputer/OpenChatKit): Together.ai's open toolkit for LLM finetune/moderation
 - [LLaMA2-Accessory](https://github.com/Alpha-VLLM/LLaMA2-Accessory):An Open-source Toolkit for LLM Development 
     - [LLaMA-Adapter](https://github.com/OpenGVLab/LLaMA-Adapter): Fine-tuning LLaMA to follow Instructions within 1 Hour and 1.2M Parameters 
+- [text-generation-webui](https://github.com/oobabooga/text-generation-webui):A gradio web UI for running Large Language Models like LLaMA, llama.cpp, GPT-J, OPT, and GALACTICA.
 ## Optimiztion(Latency/Size)
 - [Optimizing LLM latency](https://hamel.dev/notes/llm/03_inference.html): A great blog about exploration of inference tools for open source LLMs
 - [Series Quantized LLama2 Model from The Bloke with GPTQ/GGML](https://huggingface.co/TheBloke)
