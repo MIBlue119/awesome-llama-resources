@@ -44,6 +44,7 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 - [Llama2-Code-Interpreter](https://github.com/SeungyounShin/Llama2-Code-Interpreter): make Llama2 use Code Execution, Debug, Save Code, Reuse it, Access to Internet 
 - [Llama2-Medical-Chatbot](https://github.com/AIAnytime/Llama2-Medical-Chatbot): A medical bot built using Llama2 and Sentence Transformers
 - [Finetune LLaMA 7B with Traditional Chinese instruction datasets](https://github.com/A-baoYang/alpaca-7b-chinese)
+- [Taiwan-LLaMa](https://github.com/MiuLab/Taiwan-LLaMa): NTU's MiuLab finetune 13B Llama2 with 5B traditional chinese tokens and 490k instruction dataset.
 
 ## Multimodal LLM
 - [LLaSM: Large Language and Speech Model](https://github.com/LinkSoul-AI/LLaSM): Support chinese/english voice chat model based on whisper features
