@@ -83,6 +83,7 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 ## Some theory
 - [Why we should train smaller LLMs on more tokens](https://www.harmdevries.com/post/model-size-vs-compute-overhead/)
     - harms law on hugging face for calculating the model size/dataset size's compute overhead
+- [LLMSurvey](https://github.com/RUCAIBox/LLMSurvey): A Survey of Large Language Models
 
 ## Move on to production
 - [Patterns for Building LLM-based Systems & Products](https://eugeneyan.com/writing/llm-patterns/): Amazon's LLM Engineer Eugene Yan wrote a blog about patterns of LLM based system
