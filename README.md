@@ -23,6 +23,7 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 - [Finetune LLaMA2 7-70B on Amazon SageMaker](https://www.philschmid.de/sagemaker-llama2-qlora): Philschmid introduce preparing datasets/using QLoRA/Deploy model on Amazon SageMaker
 - [Finetune LLaMa2 with QLoRA at colab](https://colab.research.google.com/drive/1Zmaceu65d7w4Tcd-cfnZRb6k_Tcv2b8g?usp=sharing#scrollTo=AgKCL7fTyp9u)
 - [Fine-tune Llama 2 with DPO by huggingface](https://huggingface.co/blog/dpo-trl)
+- [Fine-tune Llama2 on specific usage like SQL Gen/Functional Representation](https://www.anyscale.com/blog/fine-tuning-llama-2-a-comprehensive-case-study-for-tailoring-models-to-unique-applications): Anyscale's member used their lib `ray` to demo finetune Llama2 70B.[Their scripts](https://github.com/ray-project/ray/tree/master/doc/source/templates/04_finetuning_llms_with_deepspeed)
 ## Porting
 - [Karpathy's Llama2.c](https://github.com/karpathy/llama2.c): Karpathy's weekend project to build a LLama2 at C 
 
