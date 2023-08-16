@@ -90,3 +90,9 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 
 ## Evaluation
 - [🤗Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard): A huggingface space which  track, rank and evaluate LLMs and chatbots as they are released.
+
+## Calculation
+- [How is LLaMa.cpp possible](https://finbarr.ca/how-is-llama-cpp-possible/): The post showed why Llama is limited by memory bound with some calculations of the transformers parameters.
+    - [Transformer Math101](https://blog.eleuther.ai/transformer-math/)
+    - [Transformer inference Arithmetic](https://kipp.ly/transformer-inference-arithmetic/)
+    - [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
