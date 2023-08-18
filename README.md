@@ -80,13 +80,10 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 - [Finetune Falcon-7B on Your GPU with TRL and QLoRA](https://medium.com/@bnjmn_marie/fine-tune-falcon-7b-on-your-gpu-with-trl-and-qlora-4490fadc3fbb): A blog about tuning falcon-7b on your consumer GPU
 - [A Definitive Guide to QLoRA: Fine-tuning Falcon-7b with PEFT](https://medium.com/@amodwrites/a-definitive-guide-to-qlora-fine-tuning-falcon-7b-with-peft-78f500a1f337)
 - [Amazon sagemaker generativeai: Fine-tune Falcon-40B with QLoRA](https://github.com/aws-samples/amazon-sagemaker-generativeai/blob/main/studio-notebook-fine-tuning/falcon-40b-qlora-finetune-summarize.ipynb)
-## Some theory
-- [Why we should train smaller LLMs on more tokens](https://www.harmdevries.com/post/model-size-vs-compute-overhead/)
-    - harms law on hugging face for calculating the model size/dataset size's compute overhead
-- [LLMSurvey](https://github.com/RUCAIBox/LLMSurvey): A Survey of Large Language Models
 
 ## Move on to production
 - [Patterns for Building LLM-based Systems & Products](https://eugeneyan.com/writing/llm-patterns/): Amazon's LLM Engineer Eugene Yan wrote a blog about patterns of LLM based system
+- [Finetuning an LLM: RLHF and alternatives](https://medium.com/mantisnlp/finetuning-an-llm-rlhf-and-alternatives-part-i-2106b95c8087)
 
 ## Evaluation
 - [🤗Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard): A huggingface space which  track, rank and evaluate LLMs and chatbots as they are released.
@@ -96,3 +93,11 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
     - [Transformer Math101](https://blog.eleuther.ai/transformer-math/)
     - [Transformer inference Arithmetic](https://kipp.ly/transformer-inference-arithmetic/)
     - [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
+
+## Some theory
+- [Why we should train smaller LLMs on more tokens](https://www.harmdevries.com/post/model-size-vs-compute-overhead/)
+    - harms law on hugging face for calculating the model size/dataset size's compute overhead
+- [LLMSurvey](https://github.com/RUCAIBox/LLMSurvey): A Survey of Large Language Models
+- [Open challenges in LLM research](https://huyenchip.com/2023/08/16/llm-research-open-challenges.html): Chip Huyen's post about LLM's challenge
+## Some basics 
+-  [Some Intuition on Attention and the Transformer](https://eugeneyan.com/writing/attention/): A post introduces the big deal about attention/what are query,key and value
