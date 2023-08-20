@@ -16,6 +16,7 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 ## Finetune Method/ Scripts
 - [Finetune with PEFT](https://huggingface.co/blog/llama2?fbclid=IwAR2G3jtbsUMZCTNsYTuxKDJCC_S6SuyFBk8hs0y23TI2ndPHVZ33ZWNHfSc)
 - [Finetune together.ai 32k context window model](https://github.com/togethercomputer/OpenChatKit/tree/main/training): script to finetune on booksum/mqa dataset
+    - [Llama-2-7B-32K-Instruct — and fine-tuning for Llama-2 models with Together API](https://together.ai/blog/llama-2-7b-32k-instruct): Together AI show their 32k context instruct 7b model.
 - [Finetune with QLora at 13b model](https://colab.research.google.com/drive/16SlGXLuBRB30clB0dCYAh3sqk0edKoFC?usp=drive_link&fbclid=IwAR2mXiV4IK0PnuhbozWtkMQANiU6P2u6h03reYtDLMctK3GeM2xEyYQvjNw): a colab about finetuning llama2
 - [HuggingFace SFT training script](https://github.com/lvwerra/trl/blob/main/examples/scripts/sft_trainer.py)
 - [Pytorch-lightening's script to finetune Llama2 on custom dataset](https://lightning.ai/blog/how-to-finetune-gpt-like-large-language-models-on-a-custom-dataset/)
@@ -32,6 +33,7 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 
 ## Tutorial
 - [Llama2.c for dummies](https://github.com/RahulSChand/llama2.c-for-dummies): a description about Karpathy's LLama2 line by line
+- [NeurIPS 2023 LLM Efficiency Challenge Quickstart Guide](https://github.com/Lightning-AI/lit-gpt/blob/main/tutorials/neurips_challenge_quickstart.md): A competition focused on training 1 LLM for 24 hours on 1 GPU – the team with the best LLM gets to present their results at NeurIPS 2023.
 
 ## Prompt
 - [LLama2 prompt template](https://gpus.llm-utils.org/llama-2-prompt-template/)
@@ -46,7 +48,7 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 - [Llama2-Medical-Chatbot](https://github.com/AIAnytime/Llama2-Medical-Chatbot): A medical bot built using Llama2 and Sentence Transformers
 - [Finetune LLaMA 7B with Traditional Chinese instruction datasets](https://github.com/A-baoYang/alpaca-7b-chinese)
 - [Taiwan-LLaMa](https://github.com/MiuLab/Taiwan-LLaMa): NTU's MiuLab finetune 13B Llama2 with 5B traditional chinese tokens and 490k instruction dataset.
-
+- [Finetuning LLaMa + Text-to-SQL](https://github.com/run-llama/modal_finetune_sql): LlamaIndex show how to fine-tune LLaMa 2 7B on a Text-to-SQL dataset
 ## Multimodal LLM
 - [LLaSM: Large Language and Speech Model](https://github.com/LinkSoul-AI/LLaSM): Support chinese/english voice chat model based on whisper features
 - [LLaVA ](https://github.com/haotian-liu/LLaVA): Large Language-and-Vision Assistant 
@@ -57,6 +59,9 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 - [LLaMA2-Accessory](https://github.com/Alpha-VLLM/LLaMA2-Accessory):An Open-source Toolkit for LLM Development 
     - [LLaMA-Adapter](https://github.com/OpenGVLab/LLaMA-Adapter): Fine-tuning LLaMA to follow Instructions within 1 Hour and 1.2M Parameters 
 - [text-generation-webui](https://github.com/oobabooga/text-generation-webui):A gradio web UI for running Large Language Models like LLaMA, llama.cpp, GPT-J, OPT, and GALACTICA.
+- [text-generation-inference](https://github.com/huggingface/text-generation-inference): Huggingface's Large Language Model Text Generation Inference.
+- [FlexFlow Serve: Low-Latency, High-Performance LLM Serving](https://github.com/flexflow/FlexFlow): An open-source compiler and distributed system for low latency, high performance LLM serving.
+- [LLM-As-Chatbot](https://stanford-cs221.github.io/autumn2021/):Use lots of open sourced instruction-following fine-tuned LLM models as a Chatbot service.
 ## Optimiztion(Latency/Size)
 - [Optimizing LLM latency](https://hamel.dev/notes/llm/03_inference.html): A great blog about exploration of inference tools for open source LLMs
 - [Series Quantized LLama2 Model from The Bloke with GPTQ/GGML](https://huggingface.co/TheBloke)
@@ -80,10 +85,11 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 - [Finetune Falcon-7B on Your GPU with TRL and QLoRA](https://medium.com/@bnjmn_marie/fine-tune-falcon-7b-on-your-gpu-with-trl-and-qlora-4490fadc3fbb): A blog about tuning falcon-7b on your consumer GPU
 - [A Definitive Guide to QLoRA: Fine-tuning Falcon-7b with PEFT](https://medium.com/@amodwrites/a-definitive-guide-to-qlora-fine-tuning-falcon-7b-with-peft-78f500a1f337)
 - [Amazon sagemaker generativeai: Fine-tune Falcon-40B with QLoRA](https://github.com/aws-samples/amazon-sagemaker-generativeai/blob/main/studio-notebook-fine-tuning/falcon-40b-qlora-finetune-summarize.ipynb)
-
+- [Llama with FlashAttention2](https://twitter.com/birchlabs/status/1692319402006384938?s=12&t=Uq8kqKilbZENNaHu98Z26A): Reduces VRAM usage, especially during training.Full finetune Llama 2 7b:51.3->40.3GiB
 ## Move on to production
 - [Patterns for Building LLM-based Systems & Products](https://eugeneyan.com/writing/llm-patterns/): Amazon's LLM Engineer Eugene Yan wrote a blog about patterns of LLM based system
 - [Finetuning an LLM: RLHF and alternatives](https://medium.com/mantisnlp/finetuning-an-llm-rlhf-and-alternatives-part-i-2106b95c8087)
+- [Github:A developer’s guide to prompt engineering and LLMs](https://github.blog/2023-07-17-prompt-engineering-guide-generative-ai-llms/): Github engineer shares their experiences to to prompt engineering for their copilot product.
 
 ## Evaluation
 - [🤗Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard): A huggingface space which  track, rank and evaluate LLMs and chatbots as they are released.
@@ -99,5 +105,9 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
     - harms law on hugging face for calculating the model size/dataset size's compute overhead
 - [LLMSurvey](https://github.com/RUCAIBox/LLMSurvey): A Survey of Large Language Models
 - [Open challenges in LLM research](https://huyenchip.com/2023/08/16/llm-research-open-challenges.html): Chip Huyen's post about LLM's challenge
+- [Stanford CS324 - Large Language Models](https://stanford-cs324.github.io/winter2022/): The fundamentals about the modeling, theory, ethics, and systems aspects of large language models.
+    - [CS221:Artificial Intelligence: Principles and Techniques](https://stanford-cs221.github.io/autumn2021/)
+
+- [Why you(Propbably) Don't Need to Fine-tune an LLM](https://www.tidepool.so/2023/08/17/why-you-probably-dont-need-to-fine-tune-an-llm/): Finetuning maynot reduce hallucinating. You could use few-shot prompting/ Retrieval Augmented Generation(RAG)
 ## Some basics 
 -  [Some Intuition on Attention and the Transformer](https://eugeneyan.com/writing/attention/): A post introduces the big deal about attention/what are query,key and value
