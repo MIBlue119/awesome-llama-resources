@@ -30,6 +30,7 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 
 - [web-llm](https://github.com/mlc-ai/web-llm): Bringing large-language models and chat to web browsers
 - [HuggingFace release Swift Transformers to help run LLM on Apple Device](https://huggingface.co/blog/swift-coreml-llm): Provide Swift based [Swift Transformers Lib](https://github.com/huggingface/swift-transformers), a [swift chat app](https://github.com/huggingface/swift-chat) and a [exporters](https://github.com/huggingface/exporters) for exporting model to coreml.
+- [pyllama](https://github.com/juncongmoo/pyllama): LLaMA: Open and Efficient Foundation Language Models
 
 ## Tutorial
 - [Llama2.c for dummies](https://github.com/RahulSChand/llama2.c-for-dummies): a description about Karpathy's LLama2 line by line
