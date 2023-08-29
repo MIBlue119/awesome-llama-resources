@@ -10,6 +10,8 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
     - [Download Applications](https://ai.meta.com/resources/models-and-libraries/llama-downloads/)
 - [Togehter AI] 202307 TogetherAI released [Llama2-7B context window with 32k](https://huggingface.co/togethercomputer/LLaMA-2-7B-32K) context window based on Meta's research [Extending Context Window of Large Language Models via Positional Interpolation](https://arxiv.org/abs/2306.15595)
     - [Together.ai's blog about Preparing for the era of 32K context: Early learnings and explorations](https://together.ai/blog/llama-2-7b-32k)
+- [Codellama](https://github.com/facebookresearch/codellama): Meta finetuned Llama2 for code generation usage. Support  C++/ Java/ PHP/ Type Script/ C#/ Bash/ Python generation. Include models 7B/13B/34B，and 3 kind of variation (Generatl/python/instruction). Extend maximum context window from 4,096 tokens to 100k(like claude2).
+
 ## Demo
 - [Llama2 70B Chatbot at HuggingFace](https://huggingface.co/spaces/ysharma/Explore_llamav2_with_TGI)
 - [A16z's Llama2-chatbot](https://github.com/a16z-infra/llama2-chatbot): provide a streamlit chatbot app for LLaMA2
@@ -110,5 +112,7 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
     - [CS221:Artificial Intelligence: Principles and Techniques](https://stanford-cs221.github.io/autumn2021/)
 
 - [Why you(Propbably) Don't Need to Fine-tune an LLM](https://www.tidepool.so/2023/08/17/why-you-probably-dont-need-to-fine-tune-an-llm/): Finetuning maynot reduce hallucinating. You could use few-shot prompting/ Retrieval Augmented Generation(RAG)
+
+- [Challenges and Applications of Large Language Models](https://arxiv.org/pdf/2307.10169.pdf)
 ## Some basics 
 -  [Some Intuition on Attention and the Transformer](https://eugeneyan.com/writing/attention/): A post introduces the big deal about attention/what are query,key and value
