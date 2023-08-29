@@ -89,6 +89,8 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 - [A Definitive Guide to QLoRA: Fine-tuning Falcon-7b with PEFT](https://medium.com/@amodwrites/a-definitive-guide-to-qlora-fine-tuning-falcon-7b-with-peft-78f500a1f337)
 - [Amazon sagemaker generativeai: Fine-tune Falcon-40B with QLoRA](https://github.com/aws-samples/amazon-sagemaker-generativeai/blob/main/studio-notebook-fine-tuning/falcon-40b-qlora-finetune-summarize.ipynb)
 - [Llama with FlashAttention2](https://twitter.com/birchlabs/status/1692319402006384938?s=12&t=Uq8kqKilbZENNaHu98Z26A): Reduces VRAM usage, especially during training.Full finetune Llama 2 7b:51.3->40.3GiB
+
+- [Anti-hype LLM reading list](https://gist.github.com/veekaybee/be375ab33085102f9027853128dc5f0e): A reading list about LLM.
 ## Move on to production
 - [Patterns for Building LLM-based Systems & Products](https://eugeneyan.com/writing/llm-patterns/): Amazon's LLM Engineer Eugene Yan wrote a blog about patterns of LLM based system
 - [Finetuning an LLM: RLHF and alternatives](https://medium.com/mantisnlp/finetuning-an-llm-rlhf-and-alternatives-part-i-2106b95c8087)
