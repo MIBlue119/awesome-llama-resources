@@ -73,7 +73,8 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 - Quantization
     - [GPTQ: Accurate Post Training Quantization for generative pre-trained transformers](https://arxiv.org/pdf/2210.17323.pdf)
         - [AutoGPTQ](https://github.com/PanQiWei/AutoGPTQ): An easy-to-use LLMs quantization package with user-friendly apis, based on GPTQ algorithm.
-
+- [Together AI's Medusa to accelerate decoding](https://together.ai/blog/medusa)
+- [NVIDIA TensorRT-LLM Supercharges Large Language Model Inference on NVIDIA H100 GPUs](https://developer.nvidia.com/blog/nvidia-tensorrt-llm-supercharges-large-language-model-inference-on-nvidia-h100-gpus):TensorRT-LLM is an open-source library that accelerates and optimizes inference performance on the latest LLMs on NVIDIA Tensor Core GPUs. 
 ## Optimization(Reasoning)
 - [LLM Reasoners](https://github.com/Ber666/llm-reasoners): LLM Reasoners is a library to enable LLMs to conduct complex reasoning, with advanced reasoning algorithms.
 
