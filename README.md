@@ -77,6 +77,7 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 - [NVIDIA TensorRT-LLM Supercharges Large Language Model Inference on NVIDIA H100 GPUs](https://developer.nvidia.com/blog/nvidia-tensorrt-llm-supercharges-large-language-model-inference-on-nvidia-h100-gpus):TensorRT-LLM is an open-source library that accelerates and optimizes inference performance on the latest LLMs on NVIDIA Tensor Core GPUs. 
 ## Optimization(Reasoning)
 - [LLM Reasoners](https://github.com/Ber666/llm-reasoners): LLM Reasoners is a library to enable LLMs to conduct complex reasoning, with advanced reasoning algorithms.
+- [Deepminds LLM as Optimizers](https://twitter.com/omarsar0/status/1700249035456598391?s=12&t=Uq8kqKilbZENNaHu98Z26A)
 
 ## Use 
 - [Run Llama 2 on your own Mac using LLM and Homebrew](https://simonwillison.net/2023/Aug/1/llama-2-mac/)
