@@ -97,6 +97,7 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 - [Patterns for Building LLM-based Systems & Products](https://eugeneyan.com/writing/llm-patterns/): Amazon's LLM Engineer Eugene Yan wrote a blog about patterns of LLM based system
 - [Finetuning an LLM: RLHF and alternatives](https://medium.com/mantisnlp/finetuning-an-llm-rlhf-and-alternatives-part-i-2106b95c8087)
 - [Github:A developer’s guide to prompt engineering and LLMs](https://github.blog/2023-07-17-prompt-engineering-guide-generative-ai-llms/): Github engineer shares their experiences to to prompt engineering for their copilot product.
+- [The Rise and Potential of Large Language Model Based Agents: A Survey](https://arxiv.org/pdf/2309.07864.pdf): A survey from Fudan NLP Group about LLM based Agents. Their github repo https://github.com/WooooDyy/LLM-Agent-Paper-List
 
 ## Evaluation
 - [🤗Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard): A huggingface space which  track, rank and evaluate LLMs and chatbots as they are released.
