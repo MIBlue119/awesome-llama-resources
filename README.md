@@ -76,6 +76,7 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
         - [AutoGPTQ](https://github.com/PanQiWei/AutoGPTQ): An easy-to-use LLMs quantization package with user-friendly apis, based on GPTQ algorithm.
 - [Together AI's Medusa to accelerate decoding](https://together.ai/blog/medusa)
 - [NVIDIA TensorRT-LLM Supercharges Large Language Model Inference on NVIDIA H100 GPUs](https://developer.nvidia.com/blog/nvidia-tensorrt-llm-supercharges-large-language-model-inference-on-nvidia-h100-gpus):TensorRT-LLM is an open-source library that accelerates and optimizes inference performance on the latest LLMs on NVIDIA Tensor Core GPUs. 
+- [20231130 Pytorch Team use pytorch tool to accelerate](https://pytorch.org/blog/accelerating-generative-ai-2/?utm_content=273712248&utm_medium=social&utm_source=twitter&hss_channel=tw-776585502606721024)
 ## Optimization(Reasoning)
 - [LLM Reasoners](https://github.com/Ber666/llm-reasoners): LLM Reasoners is a library to enable LLMs to conduct complex reasoning, with advanced reasoning algorithms.
 - [Deepminds LLM as Optimizers](https://twitter.com/omarsar0/status/1700249035456598391?s=12&t=Uq8kqKilbZENNaHu98Z26A)
@@ -122,3 +123,4 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 - [Challenges and Applications of Large Language Models](https://arxiv.org/pdf/2307.10169.pdf)
 ## Some basics 
 -  [Some Intuition on Attention and the Transformer](https://eugeneyan.com/writing/attention/): A post introduces the big deal about attention/what are query,key and value
+-  [Intro to transformers](https://docs.google.com/presentation/d/1ZXFIhYczos679r70Yu8vV9uO6B1J0ztzeDxbnBxD1S0/mobilepresent#slide=id.g31364026ad_3_2)
