@@ -38,6 +38,7 @@ Llama2 is a part open source commercial model released from Meta, including 7B/1
 - [Meta's started guide to use Llama](https://ai.meta.com/llama/get-started/?utm_source=facebook&utm_medium=organic_social&utm_campaign=llama2&utm_content=image&fbclid=IwAR1vbWQ3ns9atHjIqm6X6gL0DtMk-39jXctSWcq4IAeAJluqe7QCi7PJhP0)
 - [Llama2.c for dummies](https://github.com/RahulSChand/llama2.c-for-dummies): a description about Karpathy's LLama2 line by line
 - [NeurIPS 2023 LLM Efficiency Challenge Quickstart Guide](https://github.com/Lightning-AI/lit-gpt/blob/main/tutorials/neurips_challenge_quickstart.md): A competition focused on training 1 LLM for 24 hours on 1 GPU – the team with the best LLM gets to present their results at NeurIPS 2023.
+- [Huggingface share how to train and deploy an open source LLM?](https://docs.google.com/presentation/d/1yBWLNzlrrIsfNprbEnmYdqckAMrwFZB-/edit#slide=id.g2a625a45669_0_66)
 
 ## Prompt
 - [LLama2 prompt template](https://gpus.llm-utils.org/llama-2-prompt-template/)
